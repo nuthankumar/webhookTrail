@@ -1,0 +1,24 @@
+Installation of jenkins
+-download and run command
+-Choose the plugins required
+-create a user else work on the admin user with secret key generated initially.
+-Configure JDK
+-Configure Maven
+-Configure GIT
+-Configure sonar
+
+Installation of GIT
+-Download and install the .exe (needed to interact with the repo)
+-Create a repo in GIT
+-Use Git UI/Git bash (GIT UI seems to be less error prone)
+-Configure GIT with jenkins
+-Configure GIT per JOB
+
+Installation of Sonar
+-plugin sonarqubescanner / use old fashion sonar.hpi
+-Configure Sonar server with Jenkins
+-Configure per project settings for sonar
+
+npm builder - nodejs plugin can provide similar to maven build
+owasp zap - zap plugin is available to be configured.
+Katalone studio - an executable batch file with a command on .prj file should work. 
